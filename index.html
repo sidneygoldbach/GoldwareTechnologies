@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goldware Technologies - Desenvolvimento de Aplicativos</title>
+    
+    <!-- Meta tags para Facebook -->
+    <meta property="og:title" content="Goldware Technologies - Desenvolvimento de Aplicativos">
+    <meta property="og:description" content="Empresa especializada em desenvolvimento de aplicativos para todas as áreas e plataformas">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://goldware-technologies.com">
+    <meta property="og:image" content="./assets/logo-og.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="./assets/logo.svg">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/main.css">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="./assets/logo.svg" alt="Goldware Technologies" class="logo">
+                    <span class="logo-text">Goldware Technologies</span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link" data-translate="nav_home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link" data-translate="nav_services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link" data-translate="nav_portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link" data-translate="nav_about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link" data-translate="nav_contact">Contact</a>
+                    </li>
+                    <li class="nav-item language-selector">
+                        <select id="languageSelect" class="language-select">
+                            <option value="en">🇺🇸 EN</option>
+                            <option value="es">🇪🇸 ES</option>
+                            <option value="fr">🇫🇷 FR</option>
+                        </select>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <div class="mobile-nav">
+                    <ul class="mobile-nav-list">
+                        <li><a href="#home" class="mobile-nav-link" data-translate="nav_home">Home</a></li>
+                        <li><a href="#services" class="mobile-nav-link" data-translate="nav_services">Services</a></li>
+                        <li><a href="#portfolio" class="mobile-nav-link" data-translate="nav_portfolio">Portfolio</a></li>
+                        <li><a href="#about" class="mobile-nav-link" data-translate="nav_about">About</a></li>
+                        <li><a href="#contact" class="mobile-nav-link" data-translate="nav_contact">Contact</a></li>
+                        <li class="mobile-language-selector">
+                            <select id="mobileLangSelect" class="mobile-language-select">
+                                <option value="en">🇺🇸 EN</option>
+                                <option value="es">🇪🇸 ES</option>
+                                <option value="fr">🇫🇷 FR</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title" data-translate="hero_title">
+                        We transform <span class="highlight">ideas</span> into 
+                        <span class="highlight">exceptional apps</span>
+                    </h1>
+                    <p class="hero-description" data-translate="hero_description">
+                        App development for all areas and platforms. 
+                        Innovative solutions that drive your business into the digital future.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary" data-translate="hero_cta">Start Project</a>
+                        <a href="#portfolio" class="btn btn-secondary" data-translate="hero_learn_more">View Portfolio</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-cards">
+                        <div class="card card-1">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Mobile</span>
+                        </div>
+                        <div class="card card-2">
+                            <i class="fas fa-desktop"></i>
+                            <span>Web</span>
+                        </div>
+                        <div class="card card-3">
+                            <i class="fas fa-cloud"></i>
+                            <span>Cloud</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-translate="services_title">Our Services</h2>
+                    <p class="section-description" data-translate="services_subtitle">
+                        Complete software development solutions
+                    </p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 class="service-title" data-translate="service_mobile_title">Mobile Development</h3>
+                        <p class="service-description" data-translate="service_mobile_desc">
+                            Native and hybrid apps for iOS and Android with exceptional performance
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3 class="service-title" data-translate="service_web_title">Web Development</h3>
+                        <p class="service-description" data-translate="service_web_desc">
+                            Modern, responsive web applications optimized for all devices
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3 class="service-title" data-translate="service_cloud_title">Cloud Solutions</h3>
+                        <p class="service-description" data-translate="service_cloud_desc">
+                            Scalable and secure cloud infrastructure for your applications
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3 class="service-title" data-translate="service_integration_title">System Integration</h3>
+                        <p class="service-description" data-translate="service_integration_desc">
+                            We connect your existing systems with new technological solutions
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-translate="portfolio_title">Portfolio</h2>
+                    <p class="section-description" data-translate="portfolio_subtitle">
+                        Projects that showcase our expertise and innovation
+                    </p>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image">
+                                <i class="fas fa-image"></i>
+                                <span>Em breve</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title" data-translate="portfolio_project1_title">Mobile Project</h3>
+                            <p class="portfolio-description" data-translate="portfolio_project1_desc">Innovative application in development</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image">
+                                <i class="fas fa-image"></i>
+                                <span>Em breve</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title" data-translate="portfolio_project2_title">Web Platform</h3>
+                            <p class="portfolio-description" data-translate="portfolio_project2_desc">Complete web system in development</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image">
+                                <i class="fas fa-image"></i>
+                                <span>Em breve</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title" data-translate="portfolio_project3_title">Enterprise Solution</h3>
+                            <p class="portfolio-description" data-translate="portfolio_project3_desc">Corporate system in development</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title" data-translate="about_title">About Goldware Technologies</h2>
+                        <p class="about-description" data-translate="about_description">
+                            We are a company specialized in app development for all areas and platforms. 
+                            Our mission is to transform innovative ideas into technological solutions that drive 
+                            our clients' growth.
+                        </p>
+                        <p class="about-description" data-translate="about_description2">
+                            With expertise in modern technologies and agile methodologies, we deliver high-quality products 
+                            that exceed expectations and generate real results for your business.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label" data-translate="stat_projects">Delivered Projects</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label" data-translate="stat_satisfaction">Client Satisfaction</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">24/7</span>
+                                <span class="stat-label" data-translate="stat_support">Technical Support</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-visual">
+                        <div class="tech-stack">
+                            <div class="tech-item">
+                                <i class="fab fa-react"></i>
+                                <span>React</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-node-js"></i>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-aws"></i>
+                                <span>AWS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-translate="contact_title">Get in Touch</h2>
+                    <p class="section-description" data-translate="contact_subtitle">
+                        Ready to transform your idea into reality? Let's talk!
+                    </p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3 data-translate="contact_email_title">Email</h3>
+                                <p>sidney@goldbach.com.br</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3 data-translate="contact_hours_title">Business Hours</h3>
+                                <p data-translate="contact_hours_desc">Monday to Friday: 9am to 6pm</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3 data-translate="contact_response_title">Quick Response</h3>
+                                <p data-translate="contact_response_desc">We respond within 24 hours</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" data-translate="form_name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company" data-translate="form_company">Company (optional)</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" data-translate="form_subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="" data-translate="form_select_subject">Select a subject</option>
+                                <option value="desenvolvimento-mobile" data-translate="form_mobile_dev">Mobile Development</option>
+                                <option value="desenvolvimento-web" data-translate="form_web_dev">Web Development</option>
+                                <option value="consultoria" data-translate="form_consulting">Technical Consulting</option>
+                                <option value="manutencao" data-translate="form_maintenance">System Maintenance</option>
+                                <option value="outros" data-translate="form_others">Others</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-translate="form_message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project or need..." data-translate-placeholder="form_message_placeholder"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            <span data-translate="form_send">Send Message</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="./assets/logo.svg" alt="Goldware Technologies" class="logo">
+                        <span class="logo-text">Goldware Technologies</span>
+                    </div>
+                    <p class="footer-description" data-translate="footer_description">
+                        Transforming ideas into innovative technological solutions.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title" data-translate="footer_services">Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#services" data-translate="footer_mobile_dev">Mobile Development</a></li>
+                        <li><a href="#services" data-translate="footer_web_dev">Web Development</a></li>
+                        <li><a href="#services" data-translate="footer_cloud">Cloud Solutions</a></li>
+                        <li><a href="#services" data-translate="footer_integration">System Integration</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title" data-translate="footer_company">Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="#about" data-translate="footer_about">About Us</a></li>
+                        <li><a href="#portfolio" data-translate="footer_portfolio">Portfolio</a></li>
+                        <li><a href="#contact" data-translate="footer_contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title" data-translate="footer_contact_title">Contact</h3>
+                    <p class="footer-contact">
+                        <i class="fas fa-envelope"></i>
+                        sidney@goldbach.com.br
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-translate="footer_copyright">&copy; 2024 Goldware Technologies. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./scripts/translations.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
