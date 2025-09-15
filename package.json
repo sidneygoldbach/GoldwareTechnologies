@@ -2,10 +2,10 @@
   "name": "goldware-technologies",
   "version": "1.0.0",
   "description": "Goldware Technologies - Professional website with multi-language support",
-  "main": "server.js",
+  "main": "index.html",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js",
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,12 +15,5 @@
     "multilingual"
   ],
   "author": "Sidney Goldbach",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.18.2"
-  },
-  "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=6.0.0"
-  }
+  "license": "MIT"
 }
